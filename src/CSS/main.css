@@ -7,25 +7,104 @@ html{
 
 .hello{
     text-align: center;
-    color: rgb(182, 16, 16);
+    color: rgb(255, 255, 255);
     padding-top: 10vh;
 }
 .a1{
     text-align: center;
     width: 100%;
-    height: 101vh;
-    background-color: aqua;
+    height: 100.2vh;
+    background-image: url('../Assets/Mainpage1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     position: absolute;
 }
 .a2{
     text-align: center;
     width: 100%;
-    height: 101vh;
-    background-color: rgb(116, 37, 37);
+    height: 100.2vh;
+    background-image: url('../Assets/Mainpage2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     position: absolute;
 }
-Button{
+.a3{
+    text-align: center;
+    width: 100%;
+    height: 100.2vh;
+    background-image: url('../Assets/Mainpage3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: absolute;
+}
+.a4{
+    text-align: center;
+    width: 100%;
+    height: 100.2vh;
+    background-image: url('../Assets/Mainpage4.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: absolute;
+}
+.a5{
+    text-align: center;
+    width: 100%;
+    height: 100.2vh;
+    background-image: url('../Assets/Mainpage5.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: absolute;
+}
+.QA{
+    text-align: center;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 30vh;
+    margin-left: 20vh;
+}
+.TAGapp{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    margin-left: 20vh;
+    position: relative;
+    top: 30vh;
+}
+.MAppHead{
+    text-align: center;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 30vh;
+    margin-right: 20vh;
+    float: right;
+}
+.MApp{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 30vh;
+    margin-right: 20vh;
+    float: right;
+}
+.a3Button{
     margin: 25px;
+    margin-right: 20vh;
+    position: relative;
+    top: 30vh;  
+}
+.a2Button{
+    margin: 25px;
+    margin-left: 20vh;
+    position: relative;
+    top: 30vh;
 }
 
 .hh{
@@ -55,22 +134,30 @@ Button{
   .page-leave-active{
       animation: slide-out 700ms ease-out forwards;
   }
+  .pageUp-leave-active{
+    animation: slide-out-up 700ms ease-out forwards;
+}
 
   @keyframes slide-in {
-      from {
-          transform: translateY(100%);
-      }
-      to {
-          transform: translateY(0%);
-      }
-  }
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
 
   @keyframes slide-out {
     0%   {top: 0%;}
-    /* 20%  {top: -1%;}
-    50%  {top: -30%;}
-    75%  {top: -50%;}
-    90% {top: -95%}
-    95% {top: -97%} */
     100% {top: -100%;}
+} 
+
+
+@keyframes slide-out-up {
+    from {
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(100%);
+    }
 }
