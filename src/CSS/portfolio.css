@@ -1,0 +1,12 @@
+
+.horizontal-scroller {
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+  }
+.card {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: inline-block;
+  }
