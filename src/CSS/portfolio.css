@@ -9,4 +9,99 @@
     overflow-x: auto;
     overflow-y: hidden;
     display: inline-block;
+    background-color: 'white';
+    width: 85%;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+  }
+  .card1 {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: inline-block;
+    background-color: 'white';
+    text-align: center;
+    width: 1500px;
+    height: 100vh;
+    background-image: url('../Assets/portfolio.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .Nizam1{
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: inline-block;
+    background-color: 'white';
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Assets/DSC_0286 copy.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .Hult1{
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: inline-block;
+    background-color: 'white';
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Assets/cover.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .OlBundle1{
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: inline-block;
+    background-color: 'white';
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Assets/olBundle.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .logo{
+    width: 290px;
+    height: 197px;
+    margin: 20vh 10vh 10vh 20vh
+  }
+  p{
+    text-align: center;
+    font-size: 1.1em;
+  }
+  h1{
+    font-size: 2em;
+    margin-top: 3vh;
+  }
+  h2{
+    font-size: 1.5em;
+    margin-top: 5vh;
+  }
+  @media only screen and (max-width: 1020px) {
+    p{
+      text-align: center;
+      font-size: 0.8em;
+    }
+    h1{
+      font-size: 1.2em;
+      margin-top: 3vh;
+    }
+    h2{
+      font-size: 1em;
+      margin-top: 5vh;
+    }
+    .logo{
+      width: 150px;
+      height: 100px;
+    }
+}
+  .main{
+    background-image: url('../Assets/portfolio.jpg');
   }

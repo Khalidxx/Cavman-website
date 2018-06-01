@@ -17,8 +17,8 @@ export default class Page1 extends Component {
                     transitionAppearTimeout={1000}
                     transitionEnter={false}
                     transitionLeave={false}>
-                    <h1 className='hello'>Welcome to Cavman!</h1>
-                    <Link to='/portfolio'><Button className="a2Button"> See More </Button></Link>
+                    <h1 className='hello'>Creative, Innovative, Determinative</h1>
+                    <Link to='/portfolio'><Button className="a1Button"> See More </Button></Link>
                 </ReactCSSTransitionGroup>
             </div>
         );

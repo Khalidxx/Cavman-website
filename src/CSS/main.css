@@ -8,7 +8,9 @@ html{
 .hello{
     text-align: center;
     color: rgb(255, 255, 255);
+    font-size: 3em;
     padding-top: 10vh;
+    margin-top: 50vh;
 }
 .a1{
     text-align: center;
@@ -62,7 +64,7 @@ html{
 }
 .QA{
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     color: rgb(255, 255, 255);
     position: relative;
     top: 30vh;
@@ -70,7 +72,7 @@ html{
 }
 .TAGapp{
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
     color: rgb(255, 255, 255);
     margin-left: 20vh;
     position: relative;
@@ -78,7 +80,7 @@ html{
 }
 .MAppHead{
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     color: rgb(255, 255, 255);
     position: relative;
     top: 30vh;
@@ -87,7 +89,7 @@ html{
 }
 .MApp{
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
     color: rgb(255, 255, 255);
     position: relative;
     top: 30vh;
@@ -99,6 +101,11 @@ html{
     margin-right: 20vh;
     position: relative;
     top: 30vh;  
+}
+.a1Button{
+    margin: 25px;
+    position: absolute;
+    top: 70vh;
 }
 .a2Button{
     margin: 25px;
